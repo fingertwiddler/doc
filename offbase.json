@@ -1,15 +1,16 @@
 {
   "require": {
     "app": {
-      "url": "https://github.com/skogard/superblog.git"
+      "url": "https://github.com/fingertwiddler/app.git"
     },
     "theme": {
-      "url": "https://github.com/skogard/basic.git"
+      "url": "https://github.com/fingertwiddler/theme.git"
     }
   },
+  "main": "app",
   "settings": {
-    "name": "skögard",
-    "base": "https://skogard.github.io/demoblog/blog/"
+    "name": "fingertwiddler",
+    "base": "https://fingertwiddler.github.io/test/blog/"
   },
   "path": {
     "src": {
