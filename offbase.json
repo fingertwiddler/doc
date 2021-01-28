@@ -9,17 +9,16 @@
   },
   "main": "app",
   "settings": {
-    "name": "fingertwiddler",
-    "base": "https://fingertwiddler.github.io/test/blog/"
-  },
-  "path": {
-    "src": {
-      "content": "/home/src",
-      "assets": "/home/src/assets"
+    "SRC": "/home/src",
+    "DEST": "/home/blog",
+    "NAME": "FT",
+    "BASE": "https://fingertwiddler.github.io/test/blog/",
+    "THEME": {
+      "HOME": "/theme/dashboard.hbs",
+      "POST": "/theme/post.hbs"
     },
-    "dest": {
-      "content": "/home/blog",
-      "assets": "/home/blog/assets"
+    "PAGE": {
+      "CHUNK": 3
     }
   }
 }
