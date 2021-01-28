@@ -18,7 +18,7 @@
       "POST": "/theme/post.hbs"
     },
     "PAGE": {
-      "CHUNK": 3
+      "CHUNK": 6
     }
   }
 }
