@@ -12,14 +12,14 @@
     "DEST": "/home/blog",
     "NAME": "FT",
     "THEME": {
-      "HOME": "/theme/dashboard.hbs",
+      "HOME": "/theme/index.hbs",
       "POST": "/theme/post.hbs"
     },
     "PAGE": {
       "CHUNK": 10
     },
     "FEED": {
-      "BASE": "/",
+      "BASE": "",
       "CHUNK": 10
     }
   },
