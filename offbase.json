@@ -7,25 +7,28 @@
       "url": "https://github.com/fingertwiddler/theme.git"
     }
   },
-  "main": "app",
   "settings": {
     "SRC": "/home/src",
     "DEST": "/home/blog",
     "NAME": "FT",
-    "BASE": "https://fingertwiddler.github.io/test/blog/",
     "THEME": {
       "HOME": "/theme/dashboard.hbs",
       "POST": "/theme/post.hbs"
     },
     "PAGE": {
-      "CHUNK": 6
+      "CHUNK": 10
+    },
+    "FEED": {
+      "BASE": "/",
+      "CHUNK": 10
     }
   },
   "$editable": {
     "require.app.url": { "label": "App URL" },
     "require.theme.url": { "label": "Theme URL" },
     "settings.NAME": { "label": "Blog name" },
-    "settings.BASE": { "label": "Base URL for your site" },
-    "settings.PAGE.CHUNK": { "label": "Items per page", "type": "number" }
+    "settings.PAGE.CHUNK": { "label": "Items per page", "type": "number" },
+    "settings.FEED.BASE": { "label": "RSS Feed base URL" },
+    "settings.FEED.CHUNK": { "label": "Number of posts in the RSS feed" }
   }
 }
